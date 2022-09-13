@@ -3,7 +3,7 @@
 //! S.C -> O(n^2)
 int getKthLargest(vector<int> &arr, int k)
 {
-    //TODO refer -> https://youtu.be/_9F2VgZcvdw?t=1096
+    
 	vector<int> sumStore;
     int n = arr.size();
     

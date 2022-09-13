@@ -3,6 +3,9 @@
 //! S.C-> O(k)
 int getKthLargest(vector<int> &arr, int k)
 {
+    //TODO refer -> https://youtu.be/_9F2VgZcvdw?t=1096
+    // K size ka ek min heap banao so that ek traversal ke baad minheap ke top pe kth largest sum hoga and then aage jaake agar koi aur sum milta hai jo top() se bada hai toh top() ko pop() karake voh wala sum daal dena
+
 	// make a min_heap
     priority_queue<int, vector<int>, greater<int>> mini;
     int n = arr.size();
