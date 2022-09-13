@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 //! T.C -> O(n^2 log(n))
+//! S.C -> O(n^2)
 int getKthLargest(vector<int> &arr, int k)
 {
 	vector<int> sumStore;
