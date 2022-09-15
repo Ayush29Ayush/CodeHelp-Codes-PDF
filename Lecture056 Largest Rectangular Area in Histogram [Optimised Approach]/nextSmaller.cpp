@@ -8,6 +8,7 @@ vector<int> nextSmallerElement(vector<int> &arr, int n)
     for(int i=n-1;i>=0;i--)
     {
         int curr = arr[i];
+        // basically curr < s.top() dekhna hai means ki curr element top se chota hai ki nahi
         while(s.top()>=curr)
         {
             s.pop();
